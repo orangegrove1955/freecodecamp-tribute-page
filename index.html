@@ -2,9 +2,66 @@
     <head>
         <title>Bruce Comben - Tribute Page</title>
     </head>
+    <style>
+        body{
+            text-align: center;
+            font-family: Helvetica, sans-serif;
+            color: white;
+        }
+        h1{
+            margin-bottom: 1rem;
+            margin-top: 0px;
+        }
+        #main{
+            margin: 30px auto;
+            padding: 15px;
+            background: blue;
+        }
+        #img-div{
+            padding: 1rem;
+            background-color: rgb(0, 106, 245);
+        }
+        img{
+            min-width: 60%;
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin: auto;
+        }
+        div{
+            margin-bottom: 1rem;
+        }
+        a{
+            color: red;
+        }
+
+        ul{
+            max-width: 600px;
+            text-align: left;
+            margin: 0 auto;
+        }
+    </style>
     <body>
         <div id="main">
-            <h1 id=title>Bruce Comben</h1>
+            <div>A tribute to my grandfather</div>
+            <h1 id="title">Bruce Comben</h1>
+            <div>A Carlton player from the 1950s</div>
+            <div id="img-div">
+                <img id="image" src="images/Bruce_Comben.jpg">
+                <p id="img-caption">Bruce Comben & John Elliott with the 1987 Premiership Cup</p>
+            </div>
+            <div id="tribute-info">
+                <h3>Some facts about Bruce</h3>
+                <ul>
+                    <li>Born on <strong>25 October, 1930</strong></li>
+                    <li>Died on <strong>15 December, 2002</strong></li>
+                    <li>Owned multiple supermarkets</li>
+                    <li>Made his debut for the Carlton Football Club Round 1 of the <strong>1950</strong> season</li>
+                    <li>Two time best and fairest winner for <strong>Carlton Football Club</strong></li>
+                </ul>
+            </div>
+        <div id="wikipedia">More information about Bruce can be found at his 
+            <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Bruce_Comben">Wikipedia</a> page</div>
         </div>
     </body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
